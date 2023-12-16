@@ -1,3 +1,5 @@
 This whole file contains code for the core concept of
 Javascript and can be used to take reference and will
 be uploaded to my insta page.
+Regular updates will be provided and the consistency will 
+be maintained.
