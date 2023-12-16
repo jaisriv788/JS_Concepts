@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="color: white;background-color: black;">
+    <h1>hello</h1>
+    <script>
+        const req = new XMLHttpRequest();
+        req.open("GET","https://api.github.com/users/jaisriv788");
+        req.onreadystatechange =  function(){
+            if(req.readyState ===4 )
+            {
+               const data = (JSON.parse(this.response))
+               console.log(data)
+            }
+        }
+        req.send()
+    </script>
+</body>
+</html>
