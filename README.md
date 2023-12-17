@@ -9,4 +9,3 @@ or
 `nodemon file_name`
 or
 `npx nodemon file_name`
-if nodemon is not installed in your local machine
